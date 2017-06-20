@@ -1,0 +1,27 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "script.js" ]
+   },
+   "browser_action": {
+      "default_icon": "static/exceedlms.png",
+      "default_title": "Exceed Curator"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+T"
+         }
+      }
+   },
+   "description": "Add activities to be curated on ExceedLMS",
+   "homepage_url": "https://intellum.com",
+   "icons": {
+      "128": "static/exceedlms.png"
+   },
+   "manifest_version": 2,
+   "name": "Exceed Curator",
+   "permissions": [ "contextMenus", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3"
+}
