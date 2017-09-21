@@ -23,5 +23,5 @@
    "name": "Exceed Curator",
    "permissions": [ "contextMenus", "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.3"
+   "version": "0.4"
 }
